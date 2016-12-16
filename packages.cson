@@ -2,8 +2,10 @@ packages: [
   "autocomplete-python"
   "git-plus"
   "highlight-selected"
+  "language-powershell"
   "metrics"
   "minimap"
+  "minimap-bookmarks"
   "minimap-cursorline"
   "minimap-find-and-replace"
   "minimap-git-diff"
@@ -13,6 +15,7 @@ packages: [
   "package-sync"
   "platformio-ide-terminal"
   "python-debugger"
+  "python-tools"
   "revert-buffer"
   "tree-view-git-status"
 ]
