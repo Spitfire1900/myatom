@@ -1,6 +1,6 @@
 "*":
   core:
-    telemetryConsent: "no"
+    telemetryConsent: "limited"
   editor:
     showInvisibles: true
   "exception-reporting":
