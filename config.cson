@@ -5,6 +5,8 @@
     showInvisibles: true
   "exception-reporting":
     userId: "3e31a628-fdba-405f-4939-9c8a8470c57c"
+  linter:
+    showErrorPanel: false
   minimap:
     plugins:
       bookmarks: true
