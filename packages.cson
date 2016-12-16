@@ -1,7 +1,9 @@
 packages: [
+  "advanced-open-file"
   "autocomplete-python"
   "git-plus"
   "highlight-selected"
+  "language-batchfile"
   "language-powershell"
   "linter"
   "linter-pyflakes"
@@ -14,6 +16,7 @@ packages: [
   "minimap-highlight-selected"
   "minimap-selection"
   "multi-cursor"
+  "open-recent"
   "package-sync"
   "platformio-ide-terminal"
   "python-debugger"
