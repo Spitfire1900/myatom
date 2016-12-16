@@ -7,7 +7,6 @@ packages: [
   "language-powershell"
   "linter"
   "linter-pyflakes"
-  "metrics"
   "minimap"
   "minimap-bookmarks"
   "minimap-cursorline"
