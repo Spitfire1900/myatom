@@ -5,9 +5,6 @@
     showInvisibles: true
   "exception-reporting":
     userId: "3e31a628-fdba-405f-4939-9c8a8470c57c"
-  "git-log":
-    fontScale: 0.8
-  "highlight-selected": {}
   minimap:
     plugins:
       bookmarks: true
@@ -31,7 +28,6 @@
       fontSize: "12"
     toggles:
       autoClose: true
-  "run-command2": {}
   "split-diff":
     diffWords: true
     ignoreWhitespace: true
