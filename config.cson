@@ -1,6 +1,6 @@
 "*":
   core:
-    telemetryConsent: "limited"
+    telemetryConsent: "no"
   editor:
     showInvisibles: true
   "exception-reporting":
@@ -22,6 +22,9 @@
       "highlight-selectedDecorationsZIndex": 0
       selection: true
       selectionDecorationsZIndex: 0
+  "package-sync":
+    createOnChange: true
+    forceOverwrite: true
   "platformio-ide-terminal":
     core: {}
     style:

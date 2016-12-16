@@ -1,0 +1,18 @@
+packages: [
+  "autocomplete-python"
+  "git-plus"
+  "highlight-selected"
+  "metrics"
+  "minimap"
+  "minimap-cursorline"
+  "minimap-find-and-replace"
+  "minimap-git-diff"
+  "minimap-highlight-selected"
+  "minimap-selection"
+  "multi-cursor"
+  "package-sync"
+  "platformio-ide-terminal"
+  "python-debugger"
+  "revert-buffer"
+  "tree-view-git-status"
+]
