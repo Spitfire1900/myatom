@@ -3,6 +3,8 @@ packages: [
   "git-plus"
   "highlight-selected"
   "language-powershell"
+  "linter"
+  "linter-pyflakes"
   "metrics"
   "minimap"
   "minimap-bookmarks"
