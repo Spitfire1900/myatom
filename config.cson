@@ -1,7 +1,6 @@
 "*":
   core:
     autoHideMenuBar: true
-    telemetryConsent: "limited"
   editor:
     showInvisibles: true
   "exception-reporting":
