@@ -1,5 +1,6 @@
 "*":
   core:
+    autoHideMenuBar: true
     disabledPackages: [
       "linter-shellcheck"
     ]
@@ -8,7 +9,8 @@
     showInvisibles: true
   "exception-reporting":
     userId: "3e31a628-fdba-405f-4939-9c8a8470c57c"
-  linter: {}
+  linter:
+    showErrorPanel: false
   minimap:
     plugins:
       bookmarks: true
