@@ -7,38 +7,21 @@
     telemetryConsent: "limited"
   editor:
     showInvisibles: true
-  "exception-reporting":
-    userId: "3e31a628-fdba-405f-4939-9c8a8470c57c"
   linter:
     showErrorPanel: false
   minimap:
     plugins:
       bookmarks: true
-      bookmarksDecorationsZIndex: 0
       cursorline: true
-      cursorlineDecorationsZIndex: 0
       "find-and-replace": true
-      "find-and-replaceDecorationsZIndex": 0
       "git-diff": true
-      "git-diffDecorationsZIndex": 0
       "highlight-selected": true
-      "highlight-selectedDecorationsZIndex": 0
       selection: true
-      selectionDecorationsZIndex: 0
   "package-sync":
     createOnChange: true
     forceOverwrite: true
   "platformio-ide-terminal":
-    core: {}
     style:
       fontSize: "12"
     toggles:
       autoClose: true
-  "split-diff":
-    diffWords: true
-    ignoreWhitespace: true
-    leftEditorColor: "red"
-    rightEditorColor: "green"
-    syncHorizontalScroll: true
-  welcome:
-    showOnStartup: false
