@@ -7,16 +7,24 @@
     telemetryConsent: "limited"
   editor:
     showInvisibles: true
+  "exception-reporting":
+    userId: "489f2881-2901-76b2-019c-1ec73ec6c3c9"
   linter:
     showErrorPanel: false
   minimap:
     plugins:
       bookmarks: true
+      bookmarksDecorationsZIndex: 0
       cursorline: true
+      cursorlineDecorationsZIndex: 0
       "find-and-replace": true
+      "find-and-replaceDecorationsZIndex": 0
       "git-diff": true
+      "git-diffDecorationsZIndex": 0
       "highlight-selected": true
+      "highlight-selectedDecorationsZIndex": 0
       selection: true
+      selectionDecorationsZIndex: 0
   "package-sync":
     createOnChange: true
     forceOverwrite: true
@@ -25,3 +33,5 @@
       fontSize: "12"
     toggles:
       autoClose: true
+  welcome:
+    showOnStartup: false
