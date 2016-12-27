@@ -32,6 +32,7 @@
   "platformio-ide-terminal":
     customTexts:
       customText1: "bash /c/accugit/update.sh"
+      customText2: "bash /c/accugit/update.sh; exit"
     style:
       fontSize: "12"
     toggles:
