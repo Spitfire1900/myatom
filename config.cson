@@ -36,5 +36,6 @@
       fontSize: "12"
     toggles:
       autoClose: true
+      cursorBlink: true
   welcome:
     showOnStartup: false
