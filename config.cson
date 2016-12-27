@@ -3,6 +3,7 @@
     autoHideMenuBar: true
     disabledPackages: [
       "linter-shellcheck"
+      "linter"
     ]
     telemetryConsent: "limited"
   editor:
@@ -29,6 +30,8 @@
     createOnChange: true
     forceOverwrite: true
   "platformio-ide-terminal":
+    customTexts:
+      customText1: "bash /c/accugit/update.sh"
     style:
       fontSize: "12"
     toggles:
