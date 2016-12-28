@@ -3,7 +3,6 @@
     autoHideMenuBar: true
     disabledPackages: [
       "linter-shellcheck"
-      "linter"
     ]
     telemetryConsent: "limited"
   editor:
