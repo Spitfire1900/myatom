@@ -3,6 +3,7 @@ packages: [
   "autocomplete-python"
   "git-plus"
   "highlight-selected"
+  "indent-guide-improved"
   "language-batchfile"
   "language-powershell"
   "linter"
