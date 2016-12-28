@@ -1,5 +1,6 @@
 packages: [
   "advanced-open-file"
+  "atom-beautify"
   "autocomplete-python"
   "file-icons"
   "git-plus"
@@ -8,6 +9,7 @@ packages: [
   "language-batchfile"
   "language-powershell"
   "linter"
+  "linter-flake8"
   "linter-pyflakes"
   "linter-shellcheck"
   "minimap"
