@@ -1,6 +1,7 @@
 packages: [
   "advanced-open-file"
   "autocomplete-python"
+  "file-icons"
   "git-plus"
   "highlight-selected"
   "indent-guide-improved"

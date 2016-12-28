@@ -11,6 +11,8 @@
     showInvisibles: true
   "exception-reporting":
     userId: "489f2881-2901-76b2-019c-1ec73ec6c3c9"
+  "file-icons":
+    onChanges: true
   linter:
     showErrorPanel: false
   minimap:
