@@ -19,6 +19,9 @@
     userId: "489f2881-2901-76b2-019c-1ec73ec6c3c9"
   "file-icons":
     onChanges: true
+  "git-plus":
+    general:
+      _analyticsUserId: "19ded903-2128-47fb-97ed-4bdaded174ac"
   linter:
     showErrorPanel: false
   minimap:
