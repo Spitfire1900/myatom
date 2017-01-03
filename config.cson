@@ -9,7 +9,7 @@
     disabledPackages: [
       "linter-shellcheck"
       "indent-guide-improved"
-      "linter-pyflakes"
+      "linter-flake8"
     ]
     telemetryConsent: "limited"
   editor:
