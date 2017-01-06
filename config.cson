@@ -2,8 +2,7 @@
   "atom-beautify":
     general:
       _analyticsUserId: "a52f6bc3-f1f2-4a6d-a961-c66c1e202425"
-    python:
-      beautify_on_save: true
+    python: {}
   core:
     autoHideMenuBar: true
     disabledPackages: [
