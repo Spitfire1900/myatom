@@ -26,6 +26,7 @@ packages: [
   "open-recent"
   "package-sync"
   "platformio-ide-terminal"
+  "project-manager"
   "python-debugger"
   "python-tools"
   "revert-buffer"

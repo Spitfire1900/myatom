@@ -10,3 +10,4 @@ storage
 /recovery
 *.pyc
 /packages
+projects.cson
