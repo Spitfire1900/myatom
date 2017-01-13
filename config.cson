@@ -9,6 +9,7 @@
       "linter-shellcheck"
       "indent-guide-improved"
       "linter-flake8"
+      "linter-puppet-lint"
     ]
     telemetryConsent: "limited"
   editor:
