@@ -9,3 +9,23 @@
 # atom.workspace.observeTextEditors (editor) ->
 #   editor.onDidSave ->
 #     console.log "Saved! #{editor.getPath()}"
+
+#Fix https://github.com/atom/atom/issues/9544
+(->
+
+  ###*
+  # Unsubscribe from the gitrefresh event for every repo in the current project
+  # A fix for issue: https://github.com/atom/atom/issues/9544
+  ###
+
+  disableGitRefresh = ->
+    atom.project.repositories.forEach (repo) ->
+      if repo and repo.subscriptions and repo.subscriptions.disposables and repo.subscriptions.disposables.size
+        repo.subscriptions.dispose()
+      return
+    return
+
+  # run every minute in case you change project or add a new folder
+  window.setInterval disableGitRefresh, 60000
+  return
+).call this
