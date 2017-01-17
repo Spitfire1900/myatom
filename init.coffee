@@ -10,10 +10,10 @@
 #   editor.onDidSave ->
 #     console.log "Saved! #{editor.getPath()}"
 
-#Fix https://github.com/atom/atom/issues/9544
-(->
 
+(->
   ###*
+  # https://github.com/atom/atom/issues/9544#issuecomment-233538078
   # Unsubscribe from the gitrefresh event for every repo in the current project
   # A fix for issue: https://github.com/atom/atom/issues/9544
   ###
