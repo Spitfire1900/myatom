@@ -11,21 +11,22 @@
 #     console.log "Saved! #{editor.getPath()}"
 
 
-(->
-  ###*
-  # https://github.com/atom/atom/issues/9544#issuecomment-233538078
-  # Unsubscribe from the gitrefresh event for every repo in the current project
-  # A fix for issue: https://github.com/atom/atom/issues/9544
-  ###
-
-  disableGitRefresh = ->
-    atom.project.repositories.forEach (repo) ->
-      if repo and repo.subscriptions and repo.subscriptions.disposables and repo.subscriptions.disposables.size
-        repo.subscriptions.dispose()
-      return
-    return
-
-  # run every minute in case you change project or add a new folder
-  window.setInterval disableGitRefresh, 60000
+# START https://github.com/atom/atom/issues/9544#issuecomment-254378382
+disableGitRefreshOnFocus = ->
+  atom.project.repositories.forEach (repo) ->
+    if repo and repo.subscriptions and repo.subscriptions.disposables and repo.subscriptions.disposables.size
+        Array.from(repo.subscriptions.disposables).forEach (item) ->
+          content = item.disposalAction + ''
+          if content.indexOf('focus') > 1
+            item.dispose()
+          return
   return
-).call this
+
+atom.project.emitter.on "did-change-paths", disableGitRefreshOnFocus
+disableGitRefreshOnFocus()
+
+
+atom.commands.add 'atom-text-editor', 'custom:refresh-git-status', ->
+    atom.project.repositories.forEach (repo) ->
+      repo.refreshStatus()
+# END https://github.com/atom/atom/issues/9544#issuecomment-254378382
