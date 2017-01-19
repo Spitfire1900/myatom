@@ -1,6 +1,7 @@
 packages: [
   "advanced-open-file"
   "atom-beautify"
+  "atom-clock"
   "autocomplete-python"
   "file-icons"
   "git-plus"
