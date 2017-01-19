@@ -12,7 +12,6 @@
       "linter-shellcheck"
       "linter-flake8"
       "linter-puppet-lint"
-      "file-icons"
     ]
     telemetryConsent: "limited"
   editor:
