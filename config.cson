@@ -25,6 +25,8 @@
   "linter-puppet-lint":
     automaticFix: true
     oldVersion: false
+  "linter-pyflakes":
+    pyflakesExecutablePath: "pyflakes3"
   minimap:
     plugins:
       bookmarks: true
