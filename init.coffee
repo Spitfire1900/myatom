@@ -11,7 +11,7 @@
 #     console.log "Saved! #{editor.getPath()}"
 
 
-# START https://github.com/atom/atom/issues/9544#issuecomment-254378382
+# START https://github.com/atom/atom/issues/9544#issuecomment-273879828
 disableGitRefreshOnFocus = ->
   atom.project.repositories.forEach (repo) ->
     if repo and repo.subscriptions and repo.subscriptions.disposables and repo.subscriptions.disposables.size
@@ -25,8 +25,8 @@ disableGitRefreshOnFocus = ->
 atom.project.emitter.on "did-change-paths", disableGitRefreshOnFocus
 disableGitRefreshOnFocus()
 
-
 atom.commands.add 'atom-text-editor', 'custom:refresh-git-status', ->
     atom.project.repositories.forEach (repo) ->
-      repo.refreshStatus()
-# END https://github.com/atom/atom/issues/9544#issuecomment-254378382
+        if repo != null
+            repo.refreshStatus()
+# END https://github.com/atom/atom/issues/9544#issuecomment-273879828
