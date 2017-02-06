@@ -6,6 +6,8 @@
   "atom-clock":
     dateFormat: "DDD \\z/O\\S - X \\*\\n\\i\\x - H:mm \\m\\i\\l - ddd YY/MM/DD h:mm:ssa "
     refreshInterval: 1
+  "autocomplete-python":
+    useKite: false
   core:
     autoHideMenuBar: true
     disabledPackages: [
