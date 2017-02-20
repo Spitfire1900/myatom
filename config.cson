@@ -4,7 +4,7 @@
       _analyticsUserId: "a52f6bc3-f1f2-4a6d-a961-c66c1e202425"
     python: {}
   "atom-clock":
-    dateFormat: "DDD \\z/O\\S - X \\*\\n\\i\\x - H:mm \\m\\i\\l - ddd YY/MM/DD h:mm:ssa "
+    dateFormat: "DDD \\z/O\\S - X \\*\\n\\i\\x - H:mm \\m\\i\\l - ddd YY/MM/DD h:mm:ssa"
     refreshInterval: 1
   "autocomplete-python":
     useKite: false
