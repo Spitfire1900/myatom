@@ -3,6 +3,7 @@ packages: [
   "atom-beautify"
   "atom-clock"
   "autocomplete-python"
+  "base64"
   "file-icons"
   "git-plus"
   "highlight-selected"
