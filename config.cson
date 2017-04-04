@@ -25,6 +25,8 @@
     automaticFix: true
     oldVersion: false
   "linter-pyflakes": {}
+  "linter-ui-default":
+    showPanel: true
   minimap:
     plugins:
       bookmarks: true
