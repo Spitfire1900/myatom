@@ -10,11 +10,6 @@
     useKite: false
   core:
     autoHideMenuBar: true
-    disabledPackages: [
-      "linter-shellcheck"
-      "linter-flake8"
-      "linter-puppet-lint"
-    ]
     telemetryConsent: "limited"
   editor:
     showInvisibles: true
