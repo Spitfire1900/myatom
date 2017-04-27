@@ -12,8 +12,9 @@
     autoHideMenuBar: true
     disabledPackages: [
       "linter-shellcheck"
-      "linter-flake8"
       "linter-puppet-lint"
+      "linter-flake8"
+      "linter-jsonlint"
     ]
     telemetryConsent: "limited"
   editor:
