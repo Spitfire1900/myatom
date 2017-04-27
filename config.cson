@@ -18,6 +18,7 @@
     ]
     telemetryConsent: "limited"
   editor:
+    fontSize: 11
     showInvisibles: true
   "elasticsearch-client":
     baseUrl: "http://sndgrylog001:9200"
