@@ -30,8 +30,7 @@
   "git-plus":
     general:
       _analyticsUserId: "19ded903-2128-47fb-97ed-4bdaded174ac"
-  linter:
-    showErrorPanel: false
+  linter: {}
   "linter-puppet-lint":
     automaticFix: true
     oldVersion: false
