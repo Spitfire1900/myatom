@@ -19,6 +19,10 @@
     telemetryConsent: "limited"
   editor:
     showInvisibles: true
+  "elasticsearch-client":
+    baseUrl: "http://sndgrylog001:9200"
+    docType: "message"
+    index: "graylog2_308"
   "exception-reporting":
     userId: "489f2881-2901-76b2-019c-1ec73ec6c3c9"
   "file-icons":
