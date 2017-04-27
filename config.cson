@@ -50,6 +50,9 @@
       "highlight-selectedDecorationsZIndex": 0
       selection: true
       selectionDecorationsZIndex: 0
+  "one-dark-ui":
+    layoutMode: "Compact"
+    tabSizing: "Minimum"
   "package-sync":
     createOnChange: true
     forceOverwrite: true
