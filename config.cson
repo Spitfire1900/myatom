@@ -12,7 +12,6 @@
     autoHideMenuBar: true
     disabledPackages: [
       "linter-shellcheck"
-      "linter-puppet-lint"
       "linter-flake8"
       "linter-jsonlint"
       "linter-pyflakes"
@@ -40,6 +39,7 @@
     automaticFix: true
     oldVersion: false
   "linter-pyflakes": {}
+  "linter-ui-default": {}
   minimap:
     plugins:
       bookmarks: true
@@ -52,6 +52,8 @@
       "git-diffDecorationsZIndex": 0
       "highlight-selected": true
       "highlight-selectedDecorationsZIndex": 0
+      linter: true
+      linterDecorationsZIndex: 0
       selection: true
       selectionDecorationsZIndex: 0
   "one-dark-ui":
