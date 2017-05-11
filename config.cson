@@ -14,7 +14,7 @@
       "linter-shellcheck"
       "linter-flake8"
       "linter-jsonlint"
-      "linter-pyflakes"
+      "linter-puppet-lint"
     ]
     telemetryConsent: "limited"
     themes: [
