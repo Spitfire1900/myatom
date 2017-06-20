@@ -39,7 +39,8 @@
     automaticFix: true
     oldVersion: false
   "linter-pyflakes": {}
-  "linter-ui-default": {}
+  "linter-ui-default":
+    panelHeight: 69
   minimap:
     plugins:
       bookmarks: true
