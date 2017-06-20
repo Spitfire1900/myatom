@@ -33,4 +33,4 @@
 
 # https://github.com/atom/atom/issues/9544#issuecomment-254378382
 'atom-text-editor':
-    'ctrl-shift-j': 'custom:refresh-git-status'
+    'ctrl-shift-h': 'custom:refresh-git-status'
