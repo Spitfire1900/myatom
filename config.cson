@@ -15,6 +15,14 @@
       "linter-flake8"
       "linter-jsonlint"
       "linter-puppet-lint"
+      "minimap-linter"
+      "spell-check"
+      "file-icons"
+      "linter-pyflakes"
+      "rest-client"
+      "python-debugger"
+      "git-plus"
+      "tree-view-git-status"
     ]
     telemetryConsent: "limited"
     themes: [
