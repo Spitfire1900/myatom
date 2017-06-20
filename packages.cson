@@ -34,6 +34,7 @@ packages: [
   "minimap-find-and-replace"
   "minimap-git-diff"
   "minimap-highlight-selected"
+  "minimap-linter"
   "minimap-selection"
   "multi-cursor"
   "oceanic-next"
