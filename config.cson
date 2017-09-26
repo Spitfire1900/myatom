@@ -1,5 +1,9 @@
 "*":
   "atom-beautify":
+    bash: {}
+    executables:
+      beautysh:
+        path: "C:\\Program Files\\Python35\\Lib\\site-packages\\beautysh\\beautysh.py"
     general:
       _analyticsUserId: "a52f6bc3-f1f2-4a6d-a961-c66c1e202425"
     python: {}
@@ -11,18 +15,14 @@
   core:
     autoHideMenuBar: true
     disabledPackages: [
-      "linter-shellcheck"
-      "linter-flake8"
-      "linter-jsonlint"
       "linter-puppet-lint"
       "minimap-linter"
-      "spell-check"
-      "file-icons"
       "linter-pyflakes"
       "rest-client"
       "python-debugger"
-      "git-plus"
-      "tree-view-git-status"
+      "linter-jsonlint"
+      "spell-check"
+      "linter-xmllint"
     ]
     telemetryConsent: "limited"
     themes: [
@@ -39,16 +39,20 @@
   "exception-reporting":
     userId: "489f2881-2901-76b2-019c-1ec73ec6c3c9"
   "file-icons":
-    onChanges: true
+    coloured: false
   "git-plus":
     general:
       _analyticsUserId: "19ded903-2128-47fb-97ed-4bdaded174ac"
+  linter:
+    disabledProviders: [
+      "Flake8"
+    ]
   "linter-puppet-lint":
     automaticFix: true
     oldVersion: false
   "linter-pyflakes": {}
   "linter-ui-default":
-    panelHeight: 69
+    panelHeight: 222
   minimap:
     plugins:
       bookmarks: true

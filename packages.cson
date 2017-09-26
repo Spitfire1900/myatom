@@ -1,5 +1,6 @@
 packages: [
   "advanced-open-file"
+  "ascii-hex"
   "atom-beautify"
   "atom-clock"
   "atom-material-syntax"
@@ -26,7 +27,7 @@ packages: [
   "linter-pyflakes"
   "linter-shellcheck"
   "linter-ui-default"
-  "linter-write-good"
+  "linter-xmllint"
   "material-oceanic-syntax"
   "minimap"
   "minimap-bookmarks"
