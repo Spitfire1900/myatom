@@ -31,6 +31,6 @@
 # Atom Flight Manual:
 # http://flight-manual.atom.io/using-atom/sections/basic-customization/#_cson
 
-# https://github.com/atom/atom/issues/9544#issuecomment-254378382
+# https://github.com/atom/atom/issues/9544#issuecomment-254378382 - should be fixed in 1.22.0
 'atom-text-editor':
     'ctrl-shift-h': 'custom:refresh-git-status'
