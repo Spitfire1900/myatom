@@ -23,12 +23,18 @@
       "linter-jsonlint"
       "spell-check"
       "linter-xmllint"
+      "elasticsearch-client"
+      "file-icons"
+      "plantuml-viewer"
+      "python-tools"
+      "autocomplete-xml"
     ]
     telemetryConsent: "limited"
     themes: [
       "one-dark-ui"
       "atom-material-syntax"
     ]
+    useProxySettingsWhenCallingApm: false
   editor:
     fontSize: 11
     showInvisibles: true
@@ -52,7 +58,7 @@
     oldVersion: false
   "linter-pyflakes": {}
   "linter-ui-default":
-    panelHeight: 222
+    panelHeight: 300
   minimap:
     plugins:
       bookmarks: true
