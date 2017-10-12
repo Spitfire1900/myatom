@@ -28,6 +28,7 @@
       "plantuml-viewer"
       "python-tools"
       "autocomplete-xml"
+      "linter-ansible-syntax"
     ]
     telemetryConsent: "limited"
     themes: [
