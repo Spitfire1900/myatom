@@ -16,9 +16,7 @@
     autoHideMenuBar: true
     disabledPackages: [
       "linter-puppet-lint"
-      "minimap-linter"
       "linter-pyflakes"
-      "rest-client"
       "python-debugger"
       "linter-jsonlint"
       "spell-check"
