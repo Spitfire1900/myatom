@@ -7,6 +7,9 @@
     general:
       _analyticsUserId: "a52f6bc3-f1f2-4a6d-a961-c66c1e202425"
     python: {}
+    xml:
+      default_beautifier: "JS Beautify"
+      wrap_attributes: "force-aligned"
   "atom-clock":
     dateFormat: "DDD/\\z-X\\*\\n\\i\\x--dd YY/MM/DD-H:m.ss"
     refreshInterval: 1
