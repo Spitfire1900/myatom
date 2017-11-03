@@ -28,7 +28,6 @@
       "elasticsearch-client"
       "file-icons"
       "plantuml-viewer"
-      "python-tools"
       "autocomplete-xml"
       "linter-ansible-syntax"
     ]
