@@ -50,7 +50,6 @@ packages: [
   "project-manager"
   "python-debugger"
   "python-tools"
-  "rest-client"
   "restart-atom"
   "revert-buffer"
   "tree-view-git-status"
