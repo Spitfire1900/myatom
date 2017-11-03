@@ -26,6 +26,7 @@ packages: [
   "linter-flake8"
   "linter-js-yaml"
   "linter-jsonlint"
+  "linter-markdown"
   "linter-puppet-lint"
   "linter-pyflakes"
   "linter-shellcheck"
