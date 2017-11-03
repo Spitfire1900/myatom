@@ -30,6 +30,7 @@ packages: [
   "linter-pyflakes"
   "linter-shellcheck"
   "linter-ui-default"
+  "linter-write-good"
   "linter-xmllint"
   "material-oceanic-syntax"
   "minimap"
