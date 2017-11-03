@@ -48,6 +48,10 @@
     userId: "489f2881-2901-76b2-019c-1ec73ec6c3c9"
   "file-icons":
     coloured: false
+  "git-blame":
+    columnWidth: 255
+    customCommitUrlTemplateString: "http://prdbitbck001:7990/projects/<%- project %>/repos/<%- repo %>/commits/<%- revision %>"
+    useCustomUrlTemplateIfStandardRemotesFail: true
   "git-plus":
     general:
       _analyticsUserId: "19ded903-2128-47fb-97ed-4bdaded174ac"

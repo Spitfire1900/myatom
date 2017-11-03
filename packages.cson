@@ -10,6 +10,7 @@ packages: [
   "busy-signal"
   "elasticsearch-client"
   "file-icons"
+  "git-blame"
   "git-plus"
   "highlight-selected"
   "indent-guide-improved"
