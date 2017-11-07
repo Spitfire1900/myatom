@@ -8,7 +8,6 @@ packages: [
   "autocomplete-xml"
   "base64"
   "busy-signal"
-  "elasticsearch-client"
   "file-icons"
   "git-blame"
   "git-plus"
