@@ -9,9 +9,9 @@
         path: "C:\\Program Files\\Python35\\Lib\\site-packages\\beautysh\\beautysh.py"
     general:
       _analyticsUserId: "a52f6bc3-f1f2-4a6d-a961-c66c1e202425"
-    python: {}
+    python:
+      max_line_length: 500
     xml:
-      beautify_on_save: true
       default_beautifier: "JS Beautify"
       wrap_attributes: "force-aligned"
   "atom-clock":
@@ -23,15 +23,14 @@
     autoHideMenuBar: true
     disabledPackages: [
       "linter-puppet-lint"
-      "linter-pyflakes"
       "python-debugger"
       "linter-jsonlint"
       "spell-check"
       "linter-xmllint"
-      "file-icons"
-      "plantuml-viewer"
       "autocomplete-xml"
       "linter-ansible-syntax"
+      "linter-pyflakes"
+      "ansible-vault"
     ]
     telemetryConsent: "limited"
     themes: [
@@ -60,10 +59,14 @@
   "linter-puppet-lint":
     automaticFix: true
     oldVersion: false
+  "linter-pycodestyle":
+    maxLineLength: 500
   "linter-pyflakes": {}
   "linter-shellcheck":
     enableNotice: true
-  "linter-ui-default": {}
+  "linter-ui-default":
+    panelHeight: 232
+    showPanel: true
   minimap:
     plugins:
       bookmarks: true
