@@ -1,4 +1,7 @@
 "*":
+  "ansible-vault":
+    path: "U:\\remote-ansible-vault.sh"
+    vault_password_file_path: "C:\\TMP\\ansible.cfg"
   "atom-beautify":
     bash: {}
     executables:
