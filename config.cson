@@ -48,7 +48,7 @@
     coloured: false
   "git-blame":
     columnWidth: 255
-    customCommitUrlTemplateString: "http://prdbitbck001:7990/projects/<%- project %>/repos/<%- repo %>/commits/<%- revision %>"
+    customCommitUrlTemplateString: "https://bitbucket.aoins.com/projects/<%- project %>/repos/<%- repo %>/commits/<%- revision %>"
     useCustomUrlTemplateIfStandardRemotesFail: true
   "git-plus":
     general:
