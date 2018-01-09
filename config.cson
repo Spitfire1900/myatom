@@ -35,8 +35,8 @@
     ]
     telemetryConsent: "limited"
     themes: [
-      "one-dark-ui"
-      "atom-material-syntax"
+      "atom-material-ui"
+      "atom-material-syntax-dark"
     ]
     useProxySettingsWhenCallingApm: false
   editor:
@@ -80,8 +80,7 @@
       linterDecorationsZIndex: 0
       selection: true
       selectionDecorationsZIndex: 0
-  "one-dark-ui":
-    tabSizing: "Minimum"
+  "one-dark-ui": {}
   "package-sync":
     createOnChange: true
     forceOverwrite: true
