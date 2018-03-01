@@ -17,20 +17,20 @@
   "atom-clock":
     dateFormat: "DDD/\\z-X\\*\\n\\i\\x--dd YY/MM/DD-H:m.ss"
     refreshInterval: 1
+  "atom-ide-ui":
+    use:
+      "atom-ide-diagnostics-ui": false
   "autocomplete-python":
     useKite: false
   core:
     autoHideMenuBar: true
     disabledPackages: [
-      "linter-puppet-lint"
-      "python-debugger"
-      "linter-jsonlint"
       "spell-check"
-      "linter-xmllint"
-      "autocomplete-xml"
-      "linter-ansible-syntax"
-      "linter-pyflakes"
-      "ansible-vault"
+      "linter-flake8"
+      "python-tools"
+      "autocomplete-python"
+      "build-gradle"
+      "build"
     ]
     telemetryConsent: "limited"
     themes: [
@@ -40,7 +40,7 @@
     uriHandlerRegistration: "never"
     useProxySettingsWhenCallingApm: false
   editor:
-    fontSize: 11
+    fontSize: 10
     showInvisibles: true
   "exception-reporting":
     userId: "489f2881-2901-76b2-019c-1ec73ec6c3c9"
@@ -52,6 +52,16 @@
   "git-plus":
     general:
       _analyticsUserId: "19ded903-2128-47fb-97ed-4bdaded174ac"
+  "ide-python":
+    pylsPlugins:
+      mccabe: {}
+      pycodestyle:
+        enabled: false
+      pydocstyle: {}
+      pyflakes:
+        enabled: false
+      yapf:
+        enabled: false
   linter:
     disabledProviders: [
       "Flake8"
@@ -64,9 +74,9 @@
   "linter-pyflakes": {}
   "linter-shellcheck":
     enableNotice: true
+    shellcheckExecutablePath: "C:\\Users\\e018503\\bin\\shellcheck.exe"
   "linter-ui-default":
-    panelHeight: 232
-    showPanel: true
+    panelHeight: 190
   minimap:
     plugins:
       bookmarks: true
@@ -98,7 +108,7 @@
     toggles:
       autoClose: true
       cursorBlink: true
-  "tree-view":
-    hideVcsIgnoredFiles: true
+  "todo-show": {}
+  "tree-view": {}
   welcome:
     showOnStartup: false
