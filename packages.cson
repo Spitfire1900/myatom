@@ -48,6 +48,7 @@ packages: [
   "multi-cursor"
   "open-recent"
   "package-sync"
+  "permanent-delete"
   "plantuml-viewer"
   "platformio-ide-terminal"
   "project-manager"
