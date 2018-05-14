@@ -25,7 +25,6 @@ packages: [
   "language-batchfile"
   "language-gradle"
   "language-groovy"
-  "language-ini"
   "language-plantuml"
   "language-powershell"
   "language-puppet"
@@ -59,6 +58,5 @@ packages: [
   "restart-atom"
   "revert-buffer"
   "teletype"
-  "todo-show"
   "tree-view-git-status"
 ]
