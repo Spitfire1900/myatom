@@ -41,36 +41,35 @@
   core:
     autoHideMenuBar: true
     disabledPackages: [
-      "spell-check"
       "linter-flake8"
-      "autocomplete-python"
-      "build-gradle"
-      "build"
       "python-debugger"
-      "linter-markdown"
-      "linter-write-good"
       "ascii-hex"
       "base64"
       "file-icons"
-      "indent-guide-improved"
       "language-plantuml"
-      "language-powershell"
-      "language-systemd"
       "teletype"
-      "regex-railroad-diagram"
-      "minimap"
-      "minimap-bookmarks"
-      "minimap-cursorline"
-      "minimap-find-and-replace"
-      "minimap-git-diff"
-      "minimap-highlight-selected"
-      "minimap-linter"
-      "minimap-selection"
-      "multi-cursor"
       "plantuml-viewer"
-      "platformio-ide-terminal"
-      "atom-clock"
       "advanced-open-file"
+      "python-tools"
+      "language-batchfile"
+      "linter-js-yaml"
+      "todo-show"
+      "build"
+      "build-gradle"
+      "atom-ide-ui"
+      "atom-jinja2"
+      "autocomplete-python"
+      "highlight-selected"
+      "ide-python"
+      "language-puppet"
+      "language-systemd"
+      "linter-write-good"
+      "open-recent"
+      "package-sync"
+      "regex-railroad-diagram"
+      "tree-view-git-status"
+      "multi-cursor"
+      "platformio-ide-terminal"
     ]
     telemetryConsent: "limited"
     themes: [
@@ -82,7 +81,6 @@
   editor:
     fontSize: 10
     showInvisibles: true
-    tabLength: 4
   "exception-reporting":
     userId: "489f2881-2901-76b2-019c-1ec73ec6c3c9"
   "file-icons": {}
@@ -95,7 +93,10 @@
       _analyticsUserId: "19ded903-2128-47fb-97ed-4bdaded174ac"
   "ide-python":
     pylsPlugins:
-      mccabe: {}
+      autopep8:
+        enabled: false
+      mccabe:
+        enabled: false
       pycodestyle:
         enabled: false
       pydocstyle: {}
@@ -109,6 +110,8 @@
     disabledProviders: [
       "Flake8"
     ]
+    lintOnChange: false
+    lintOnChangeInterval: 15000
   "linter-puppet-lint":
     automaticFix: true
     oldVersion: false

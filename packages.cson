@@ -2,7 +2,6 @@ packages: [
   "advanced-open-file"
   "ascii-hex"
   "atom-beautify"
-  "atom-clock"
   "atom-ide-ui"
   "atom-jinja2"
   "atom-material-syntax"
@@ -34,6 +33,7 @@ packages: [
   "linter-js-yaml"
   "linter-markdown"
   "linter-pycodestyle"
+  "linter-pydocstyle"
   "linter-shellcheck"
   "linter-ui-default"
   "linter-write-good"
@@ -58,5 +58,6 @@ packages: [
   "restart-atom"
   "revert-buffer"
   "teletype"
+  "todo-show"
   "tree-view-git-status"
 ]
