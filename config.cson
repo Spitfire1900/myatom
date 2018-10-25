@@ -52,7 +52,6 @@
       "advanced-open-file"
       "python-tools"
       "language-batchfile"
-      "linter-js-yaml"
       "todo-show"
       "build"
       "build-gradle"
@@ -61,15 +60,11 @@
       "autocomplete-python"
       "highlight-selected"
       "ide-python"
-      "language-puppet"
-      "language-systemd"
       "linter-write-good"
       "open-recent"
       "package-sync"
       "regex-railroad-diagram"
-      "tree-view-git-status"
-      "multi-cursor"
-      "platformio-ide-terminal"
+      "open-on-github"
     ]
     telemetryConsent: "limited"
     themes: [
@@ -122,7 +117,7 @@
     enableNotice: true
     shellcheckExecutablePath: "C:\\Users\\e018503\\bin\\shellcheck.exe"
   "linter-ui-default":
-    panelHeight: 200
+    panelHeight: 300
     panelRepresents: "Entire Project"
     showPanel: true
   minimap:
