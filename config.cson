@@ -64,6 +64,7 @@
       "open-recent"
       "regex-railroad-diagram"
       "open-on-github"
+      "ansible-vault"
     ]
     telemetryConsent: "limited"
     themes: [
