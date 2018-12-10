@@ -56,15 +56,13 @@
       "build"
       "build-gradle"
       "atom-ide-ui"
-      "atom-jinja2"
-      "autocomplete-python"
       "highlight-selected"
-      "ide-python"
       "linter-write-good"
       "open-recent"
       "regex-railroad-diagram"
       "open-on-github"
       "ansible-vault"
+      "autocomplete-python"
     ]
     telemetryConsent: "limited"
     themes: [
@@ -88,12 +86,19 @@
       _analyticsUserId: "19ded903-2128-47fb-97ed-4bdaded174ac"
   "ide-python":
     pylsPlugins:
-      autopep8:
-        enabled: false
-      mccabe:
-        enabled: false
+      autopep8: {}
+      mccabe: {}
       pycodestyle:
-        enabled: false
+        ignore: [
+          "E121"
+          "E123"
+          "E126"
+          "E226"
+          "E24"
+          "E704"
+          "W503"
+          "E501"
+        ]
       pydocstyle: {}
       pyflakes:
         enabled: false
