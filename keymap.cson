@@ -33,3 +33,4 @@
 'atom-text-editor':
   'alt-shift-up': 'editor:select-larger-syntax-node'
   'alt-shift-down': 'editor:select-smaller-syntax-node'
+  'ctrl-c': 'core:copy'
