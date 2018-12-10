@@ -147,6 +147,7 @@
     forceOverwrite: true
   "platformio-ide-terminal":
     core:
+      autoRunCommand: "& 'C:\\Program Files\\Git\\usr\\bin\\bash.exe'"
       workingDirectory: "Active File"
     customTexts:
       customText1: "bash /c/accugit/update.sh"
