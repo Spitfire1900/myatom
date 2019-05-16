@@ -11,3 +11,4 @@ storage
 *.pyc
 /packages
 projects.cson
+.atom-socket-secret*
