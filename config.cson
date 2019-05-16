@@ -10,8 +10,7 @@
         path: "C:\\Program Files\\Python35\\Lib\\site-packages\\beautysh\\beautysh.py"
     general:
       _analyticsUserId: "a52f6bc3-f1f2-4a6d-a961-c66c1e202425"
-    python:
-      max_line_length: 500
+    python: {}
     xml:
       default_beautifier: "JS Beautify"
       wrap_attributes: "force-aligned"
@@ -38,31 +37,31 @@
       hyperclick: "default"
   "autocomplete-python":
     useKite: false
+  build: {}
   core:
     autoHideMenuBar: true
     disabledPackages: [
-      "linter-flake8"
       "python-debugger"
       "ascii-hex"
-      "base64"
       "file-icons"
-      "language-plantuml"
       "teletype"
-      "plantuml-viewer"
       "advanced-open-file"
       "python-tools"
       "language-batchfile"
-      "todo-show"
-      "build"
-      "build-gradle"
-      "atom-ide-ui"
       "highlight-selected"
       "linter-write-good"
       "open-recent"
       "regex-railroad-diagram"
       "open-on-github"
       "ansible-vault"
-      "autocomplete-python"
+      "build"
+      "build-gradle"
+      "atom-ide-debugger-python"
+      "language-plantuml"
+      "plantuml-viewer"
+      "ide-python"
+      "atom-ide-ui"
+      "linter-flake8"
     ]
     telemetryConsent: "limited"
     themes: [
@@ -72,7 +71,7 @@
     uriHandlerRegistration: "never"
     useProxySettingsWhenCallingApm: false
   editor:
-    fontSize: 10
+    fontSize: 11
     showInvisibles: true
   "exception-reporting":
     userId: "489f2881-2901-76b2-019c-1ec73ec6c3c9"
@@ -99,7 +98,8 @@
           "W503"
           "E501"
         ]
-      pydocstyle: {}
+      pydocstyle:
+        enabled: true
       pyflakes:
         enabled: false
       yapf:
@@ -107,9 +107,6 @@
   kite:
     editorMetricsEnabled: "no"
   linter:
-    disabledProviders: [
-      "Flake8"
-    ]
     lintOnChange: false
     lintOnChangeInterval: 15000
   "linter-puppet-lint":
@@ -121,8 +118,9 @@
   "linter-shellcheck":
     enableNotice: true
     shellcheckExecutablePath: "C:\\Users\\e018503\\bin\\shellcheck.exe"
+    userParameters: "-e SC1017"
   "linter-ui-default":
-    panelHeight: 300
+    panelHeight: 216
     panelRepresents: "Entire Project"
     showPanel: true
   minimap:
@@ -147,11 +145,10 @@
     forceOverwrite: true
   "platformio-ide-terminal":
     core:
-      autoRunCommand: "& 'C:\\Program Files\\Git\\usr\\bin\\bash.exe'"
+      autoRunCommand: "$env:PATH = 'C:\\Program Files\\Git\\bin;' + $env:PATH"
       workingDirectory: "Active File"
     customTexts:
-      customText1: "bash /c/accugit/update.sh"
-      customText2: "bash /c/accugit/update.sh; exit"
+      customText1: "& 'C:\\Program Files\\TortoiseGit\\bin\\TortoiseGitProc.exe' /command:log /path:."
     style:
       fontSize: "12"
     toggles:
