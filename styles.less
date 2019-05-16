@@ -27,8 +27,12 @@ atom-text-editor {
 
 }
 
-atom-text-editor .syntax--comment, .syntax--punctuation.syntax--definition.syntax--comment {
+atom-text-editor .syntax--comment, .syntax--punctuation.syntax--definition.syntax--comment, .invisible-character {
     color: #999999;
+}
+
+atom-text-editor .invisible-character, .line-number {
+    color: #666666
 }
 
 // To style other content in the text editor's shadow DOM, use the ::shadow expression
