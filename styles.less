@@ -27,11 +27,41 @@ atom-text-editor {
 
 }
 
-atom-text-editor .syntax--comment, .syntax--punctuation.syntax--definition.syntax--comment, .invisible-character {
+// boost contrast of
+//   comments
+atom-text-editor  .syntax--comment,
+                  .syntax--punctuation.syntax--definition.syntax--comment {
     color: #999999;
 }
+// boost contrast of
+//   line numbers
+//   unfolded foldability markers (covered under context of line number)
+atom-text-editor  .line-number {
+    color: #B2CCD6;
+}
 
-atom-text-editor .invisible-character, .line-number {
+// boost contrast of
+//   folded lines
+//   folded foldability markers
+//   fold markers
+atom-text-editor  .line-number.foldable.folded,
+                  .icon-right::before {
+    color: #dff349;
+}
+// boost contrast of
+//   fold markers
+atom-text-editor  .fold-marker::after {
+    color: #dff349;
+}
+
+// boost contrast of
+//   line number where cursor is
+atom-text-editor .gutter .line-number.cursor-line {
+    color: rgba(0, 214, 194, 0.8);
+}
+// boost contrast of
+//   invisible characters
+atom-text-editor .invisible-character {
     color: #666666
 }
 
