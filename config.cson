@@ -7,10 +7,11 @@
     bash: {}
     executables:
       beautysh:
-        path: "C:\\Program Files\\Python35\\Lib\\site-packages\\beautysh\\beautysh.py"
+        path: "C:/Program Files/Python37/Scripts/beautysh.EXE"
     general:
       _analyticsUserId: "a52f6bc3-f1f2-4a6d-a961-c66c1e202425"
-    python: {}
+    python:
+      max_line_length: 500
     xml:
       default_beautifier: "JS Beautify"
       wrap_attributes: "force-aligned"
@@ -47,7 +48,6 @@
       "teletype"
       "advanced-open-file"
       "python-tools"
-      "language-batchfile"
       "highlight-selected"
       "linter-write-good"
       "open-recent"
@@ -71,11 +71,13 @@
     uriHandlerRegistration: "never"
     useProxySettingsWhenCallingApm: false
   editor:
-    fontSize: 11
+    fontSize: 10
     showInvisibles: true
   "exception-reporting":
     userId: "489f2881-2901-76b2-019c-1ec73ec6c3c9"
   "file-icons": {}
+  "find-and-replace":
+    useRipgrep: true
   "git-blame":
     columnWidth: 255
     customCommitUrlTemplateString: "https://bitbucket.aoins.com/projects/<%- project %>/repos/<%- repo %>/commits/<%- revision %>"
@@ -122,7 +124,7 @@
   "linter-ui-default":
     panelHeight: 216
     panelRepresents: "Entire Project"
-    showPanel: true
+  "markdown-preview": {}
   minimap:
     plugins:
       bookmarks: true
@@ -154,7 +156,9 @@
     toggles:
       autoClose: true
       cursorBlink: true
+  "project-manager": {}
   "todo-show": {}
-  "tree-view": {}
+  "tree-view":
+    hideVcsIgnoredFiles: true
   welcome:
     showOnStartup: false
